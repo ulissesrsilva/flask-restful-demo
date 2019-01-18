@@ -49,6 +49,10 @@ jobs:
           command: |
             . venv/bin/activate
             pytest
+      
+      - run:
+          name: novo passo criado
+          command: echo("alo alo")
 
       - store_artifacts:
           path: test-reports
