@@ -56,9 +56,9 @@ jobs:
       
       - run:
           name: novo passo criado
-          command: echo(enviando e-mail para o gerente de projetos)
+          command: echo "enviando e-mail para o gerente de projetos"
 
       - run:
           name: novo passo 2
-          command: echo(abrindo pull request para develop)
+          command: echo "abrindo pull request para develop"
           
