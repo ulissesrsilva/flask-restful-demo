@@ -50,11 +50,15 @@ jobs:
             . venv/bin/activate
             pytest
       
-      - run:
-          name: novo passo criado
-          command: echo("alo alo")
-
       - store_artifacts:
           path: test-reports
           destination: test-reports
+      
+      - run:
+          name: novo passo criado
+          command: echo(enviando e-mail para o gerente de projetos)
+
+      - run:
+          name: novo passo 2
+          command: echo(abrindo pull request para develop)
           
