@@ -64,7 +64,8 @@ jobs:
 
       - run:
         name: set container
-        command: heroku stack:set container
+        command: |
+            heroku stack:set container
 
       - run:
           name: publicar para heroku
