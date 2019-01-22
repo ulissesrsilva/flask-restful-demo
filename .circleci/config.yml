@@ -63,7 +63,7 @@ jobs:
           command: echo "abrindo pull request para develop"
 
       - run:
-        name: set container
+        name: passo para docker e heroku
         command: |
             heroku stack:set container
 
